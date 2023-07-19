@@ -1,0 +1,29 @@
+div {
+  width: auto;
+  height: 100px;
+  background-color: #1976D2;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+a {
+  font-size: xx-large;
+  text-decoration: none;
+  color: azure;
+}
+
+a:last-child {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 10px;
+  height: 50px;
+  background-color: azure;
+  color: #1976D2;
+}
